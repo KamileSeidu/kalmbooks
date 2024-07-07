@@ -1,9 +1,12 @@
-import "./App.css";
+// import Carousel from "./components/Carousel";
+
+import Categories from "./components/Categories";
 
 function App() {
   return (
     <>
-      <h1>Say hello</h1>
+      <Categories />
+      {/* <Carousel /> */}
     </>
   );
 }

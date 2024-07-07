@@ -1,0 +1,51 @@
+@media (min-width: 1024px) {
+  .carousel-group {
+    display: flex;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      77deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(208, 10, 59, 0.5592436803823091) 0%,
+      rgba(255, 255, 255, 1) 53%
+    );
+  }
+
+  .carousel-group img {
+    align-self: center;
+  }
+
+  .carousel-header {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 130px;
+  }
+
+  h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    color: #393280;
+    margin: 0;
+  }
+
+  p {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #3932809a;
+  }
+
+  button {
+    background-color: transparent;
+    border: 1px solid #393280;
+    border-radius: 7px;
+    padding: 2rem 3rem;
+    color: #393280;
+    width: 50%;
+    cursor: pointer;
+  }
+
+  button::after {
+    content: "-->";
+    color: #393280;
+    padding-left: 10px;
+  }
+}
