@@ -6,13 +6,13 @@ import rec3 from "../assets/rec_3.jpg";
 
 export default function Categories() {
   return (
-    <div>
-      <div>
+    <div className={classes.cagtegories}>
+      <div className={classes.heading}>
         <span>
           <h4>Categories</h4>
           <h5>Explore our Top Categories</h5>
         </span>
-        <div>
+        <div className={`${classes["categories-button"]}`}>
           <button className={classes.selected}>
             <img src={arrowRight} alt="" />
           </button>
@@ -35,6 +35,10 @@ export default function Categories() {
           <h2>Engineering Books</h2>
         </span>
       </div>
+
+      <a href="#" className={`${classes["btn--outline"]}`}>
+        VIEW MORE
+      </a>
     </div>
   );
 }

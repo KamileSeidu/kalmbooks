@@ -1,4 +1,9 @@
 @media (min-width: 1024px) {
+  .cagtegories {
+    display: flex;
+    flex-direction: column;
+  }
+
   h4::before {
     content: "----";
   }
@@ -7,6 +12,7 @@
     color: red;
     font-size: 1.4rem;
     font-weight: bold;
+    margin: 0;
   }
 
   h5 {
@@ -15,6 +21,17 @@
     color: #393280;
     margin: 0;
   }
+
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+
+  .categories-button {
+    margin-top: 10px;
+  }
+
   button {
     border-radius: 50%;
     background-color: transparent;
@@ -42,6 +59,36 @@
 
   .ad {
     display: flex;
-    gap: 30px;
+    /* gap: 30; */
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ad h2 {
+    color: #393280;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+
+  .btn--outline {
+    background-color: transparent;
+    border: 1px solid #393280;
+    border-radius: 7px;
+    padding: 2rem 3rem;
+    color: #393280;
+    cursor: pointer;
+    text-decoration: none;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+
+  .btn--outline::after {
+    content: "-->";
+    color: #393280;
+    padding-left: 10px;
   }
 }

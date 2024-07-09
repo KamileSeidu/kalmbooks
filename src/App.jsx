@@ -1,11 +1,12 @@
 // import Carousel from "./components/Carousel";
-
-import Categories from "./components/Categories";
+// import Categories from "./components/Categories";
+import NewBook from "./components/NewBook";
 
 function App() {
   return (
     <>
-      <Categories />
+      <NewBook />
+      {/* <Categories /> */}
       {/* <Carousel /> */}
     </>
   );
