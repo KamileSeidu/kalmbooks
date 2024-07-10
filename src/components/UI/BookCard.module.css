@@ -1,0 +1,46 @@
+.card {
+  /* position: relative; */
+  border: 1px solid orangered;
+  background-color: white;
+  text-align: center;
+}
+
+button {
+  border: 0;
+  background-color: orangered;
+  color: white;
+  padding: 1rem 6rem;
+  top: 60%;
+  left: 300px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+h2,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+h4 {
+  font-size: 2.2rem;
+  color: #393280;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 1.4rem;
+  color: #c3c3c3;
+  font-weight: 300;
+}
+
+p {
+  color: #ed553b;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
